@@ -1,0 +1,208 @@
+@media (max-width: 1400px) {
+  .photo-gallery-item .four {
+    height: 290px;
+  }
+}
+@media (max-width: 1268px) {
+  .carousel-caption .lead {
+    font-size: 1.15rem;
+    font-weight: 300;
+  }
+  .gear-inneritem .lead {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 1200px) {
+  .lorem-ipsum-left p {
+    font-size: 1.15rem;
+    font-weight: 300;
+  }
+  .newsLetter-content p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1116px) {
+}
+@media (max-width: 1036px) {
+}
+
+@media (max-width: 992px) {
+  .newsLetter-content p {
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+  }
+  .header-right ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .gear-inneritem .lead {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+  }
+  .gear-inneritem h3 {
+    font-size: 1.55rem;
+    font-weight: 400;
+  }
+  .gear-inneritem span {
+    font-size: 44px;
+    display: inline-block;
+  }
+  .lorem-ipsum-left {
+    margin-top: 7px;
+  }
+  .lorem-ipsum-left p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+@media (max-width: 876px) {
+  .carousel-caption .display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .gear-inneritem .lead {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  .header-right ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  .header-left a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.12rem;
+  }
+  .lorem-ipsum-left {
+    margin-top: 7px;
+    margin-bottom: 40px;
+  }
+  .photo-gallery-item .four {
+    height: 290px;
+    width: 550px;
+    margin-bottom: 20px;
+  }
+  .photo-gallery-item .five {
+    height: 290px;
+    width: 550px;
+    margin-bottom: 20px;
+  }
+  .photo-gallery-item .six {
+    height: 290px;
+    width: 550px;
+    margin-bottom: 20px;
+  }
+  .newsLetter-content input {
+    width: 200px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+}
+@media (max-width: 672px) {
+}
+
+@media (max-width: 576px) {
+  .gear-row {
+    margin-top: -70px;
+  }
+  .header-left {
+    margin-top: 7px;
+    text-align: center;
+  }
+  .header-right ul {
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .newsLetter-content input {
+    width: 175px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  .slider .carousel-item .carousel-caption {
+    margin-bottom: 110px;
+  }
+  .slider .carousel-item .carousel-caption h2 {
+    font-size: 26px;
+  }
+  .slider .carousel-item .carousel-caption p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 496px) {
+  .newsLetter-content input {
+    width: 160px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  .slider .carousel-item .carousel-caption {
+    margin-bottom: 140px;
+  }
+}
+
+@media (max-width: 468px) {
+  .slider .carousel-item .carousel-caption {
+    margin-bottom: 170px;
+  }
+  .slider .carousel-item .carousel-caption a {
+    font-size: 12px;
+  }
+  .newsLetter-content input {
+    width: 140px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  .gear-row {
+    margin-top: -181px;
+  }
+  .get-started-inner-caption p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .photo-gallery-item .four {
+    margin-bottom: 20px;
+  }
+  .photo-gallery-item .five {
+    margin-bottom: 20px;
+  }
+  .slider .carousel-item .carousel-caption h2 {
+    font-size: 21px;
+  }
+  .slider .carousel-item .carousel-caption p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 418px) {
+  .crash-course-inner-caption h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  .newsLetter-content input {
+    width: 120px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+}

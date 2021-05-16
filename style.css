@@ -1,0 +1,322 @@
+img {
+  max-width: 100%;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  font-family: "Roboto", sans-serif;
+}
+/* ========================== Header ============================== */
+.header {
+  background-color: #000000;
+  padding: 3px 0;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  z-index: 99;
+}
+.header-left {
+  margin-top: 7px;
+}
+.header-left a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.header-right ul {
+  padding-left: 0;
+  list-style: none;
+  text-align: right;
+  margin-top: 10px;
+}
+.header-right ul li {
+  display: inline-block;
+}
+.header-right ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 15px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.header-right ul li a:hover {
+  color: #fff;
+}
+/* ======================== carousel/slider ============================= */
+.slider .carousel-item {
+  height: 450px;
+  margin-top: 55px;
+}
+.slider .carousel-item .carousel-caption.rt-sec {
+  text-align: right;
+}
+.slider .carousel-item .carousel-caption.left-sec {
+  text-align: left;
+}
+.slider .carousel-item .carousel-caption {
+  margin-bottom: 50px;
+}
+/*  ========================= Gears ================================= */
+.gear-inneritem span {
+  font-size: 50px;
+  display: inline-block;
+}
+.gear-inneritem h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+/* =========================== Get Start ============================= */
+.get-started {
+  background: url(./img//bg1.jpeg) no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+  z-index: 1;
+}
+.get-started::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.get-started-inner-caption h3 {
+  font-weight: 400;
+}
+.get-started-inner-caption p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+/* ============================= Lorem Ipsum ============================= */
+.lorem-ipsum-left {
+  margin-top: 60px;
+}
+.lorem-ipsum-left p {
+  font-size: 1.35rem;
+  font-weight: 300;
+}
+/* =========================== Crash Course ======================== */
+.crash-course {
+  background: url(./img//people.jpeg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px 0;
+  position: relative;
+  z-index: 1;
+}
+.crash-course::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+.crash-course-inner-caption h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.crash-course-inner-caption span {
+  display: inline-block;
+  font-size: 50px;
+  color: #ff0000;
+}
+/* =========================== Photo Gallery ================================== */
+.photo-gallery-item.number-five img {
+  height: 292px;
+}
+/* ============================ NewsLetter ========================== */
+.news-letter {
+  background-color: #343a40;
+}
+.newsLetter-content h2 {
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.newsLetter-content p {
+  margin-bottom: 20px;
+}
+.newsLetter-content input {
+  width: 210px;
+  margin-right: 10px;
+
+  display: inline-block;
+}
+/* ======================== Footer ============================ */
+.footer {
+  background: #000;
+  padding: 10px 0;
+}
+.footer-title p {
+  position: relative;
+  top: 7px;
+}
+/* ================================== About.Html Page ============================== */
+/* ==================================== About Us =================================== */
+.about-us {
+  background: url(./img//image1.jpeg) no-repeat top center;
+  background-size: cover;
+  padding: 85px 0;
+}
+.about-us-title {
+  margin-top: 30px;
+}
+.about-us-title h2 {
+  font-weight: 400;
+}
+/* =========================== We Do ============================== */
+.we-do-left {
+  padding: 50px;
+}
+.we-do-left h3 {
+  font-weight: 400;
+}
+.we-do-right img {
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+}
+/* ========================== About Page Lorem Card ============================ */
+.lorem-card-item .card {
+  padding: 10px 25px;
+}
+.lorem-card-item .card .card-body span {
+  font-size: 50px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.lorem-card-item .card .card-body h3 {
+  font-weight: 400;
+}
+.lorem-card-item .card .card-body p {
+}
+/* =========================== About Page Testimonial ======================== */
+.testimonial-title h2 {
+  font-weight: 400;
+}
+.testimonial-title h5 {
+  font-weight: 400;
+}
+/* ============================ Service Page =============================== */
+/* ======================= Service Slider ============================= */
+.service-us {
+  background: url(./img//image3.jpeg) no-repeat top center;
+  background-size: cover;
+  padding: 85px 0;
+}
+/* =========================== Service Plan ==================================== */
+.service-plan {
+  padding: 55px 0;
+}
+.service-plan-item .card {
+  border-radius: 5px;
+}
+.service-plan-item .card .card-header h3 {
+  position: relative;
+  top: 5px;
+  font-weight: 400;
+}
+.service-plan-item .card .card-body h3 {
+  font-weight: 400;
+}
+.service-plan-item .card .card-body p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.service-plan-item .card .card-body ul {
+  list-style: none;
+  padding-left: 0;
+}
+.service-plan-item .card .card-body ul li {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.service-plan-item .card .card-body ul li span {
+  display: inline-block;
+  padding: 10px;
+}
+.service-plan-item .card .card-footer p {
+  position: relative;
+  top: 7px;
+}
+/* ========================= Service Page Asked Question ============================= */
+.asked-question {
+  background-color: #343a40;
+}
+.asked-question h2 {
+  font-weight: 400;
+}
+.asked-question .accordion-item a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+.asked-question-left .accordion-item a:hover {
+  text-decoration: underline;
+}
+.asked-question-right .accordion-item a:hover {
+  text-decoration: underline;
+}
+/* ==================== Blog Page ============================== */
+/* ======================= Blog Page Card Item ===================== */
+.blog-post-item .card .card-body h4 {
+  font-weight: 400;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.blog-post-item .card .card-body small {
+  display: block;
+  padding: 10px;
+  margin-top: -15px;
+}
+.blog-post-item .card .card-body p {
+  border-top: 1px solid #ddd;
+  text-align: justify;
+  padding: 10px;
+}
+/* ====================== Contact Page ============================ */
+/* ======================== Contact Page Contact Form ========================= */
+
+.contact-form .card {
+  padding: 10px;
+}
+.contact-form .card .card-body .contact-first-input {
+  margin-bottom: 18px;
+}
+.contact-form .card .card-body .contact-first-input input {
+  width: 48%;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+.contact-form .card .card-body textarea {
+  width: 97%;
+  margin-left: 10px;
+  height: 180px;
+}
+.contact-form .card .card-body a {
+  width: 97%;
+  margin-left: 10px;
+}
+.contact-right .card {
+  padding: 10px;
+}
+.contact-right .card-body h4 {
+  font-weight: 400;
+}

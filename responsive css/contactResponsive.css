@@ -1,0 +1,64 @@
+@media (max-width: 1400px) {
+  .contact-right .card {
+    padding: 10px;
+    height: 395px;
+  }
+}
+@media (max-width: 1268px) {
+}
+@media (max-width: 1176px) {
+}
+@media (max-width: 1200px) {
+  .contact-right .card-body h4 {
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+  .contact-right .card-body p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1076px) {
+}
+
+@media (max-width: 992px) {
+  .header-right ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 10px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+}
+@media (max-width: 856px) {
+}
+
+@media (max-width: 768px) {
+  .header-right ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 8px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+  }
+}
+@media (max-width: 656px) {
+}
+
+@media (max-width: 576px) {
+  .header-left {
+    margin-top: 7px;
+    text-align: center;
+  }
+  .header-right ul {
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 468px) {
+}
+@media (max-width: 416px) {
+}
