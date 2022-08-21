@@ -4,8 +4,6 @@
     font-weight: 300;
   }
 }
-@media (max-width: 1268px) {
-}
 @media (max-width: 1200px) {
   .we-do-left .lead {
     font-size: 0.9rem;
@@ -68,8 +66,7 @@
     text-align: center;
   }
 }
-@media (max-width: 656px) {
-}
+
 @media (max-width: 576px) {
   .header-left {
     margin-top: 7px;
@@ -84,8 +81,4 @@
   .about-us-title {
     margin-top: 65px;
   }
-}
-@media (max-width: 468px) {
-}
-@media (max-width: 416px) {
 }

@@ -206,8 +206,7 @@ span {
 .lorem-card-item .card .card-body h3 {
   font-weight: 400;
 }
-.lorem-card-item .card .card-body p {
-}
+
 /* =========================== About Page Testimonial ======================== */
 .testimonial-title h2 {
   font-weight: 400;
@@ -319,4 +318,8 @@ span {
 }
 .contact-right .card-body h4 {
   font-weight: 400;
+}
+.conatct{
+  padding: 50px 0;
+  padding: 100px 0;
 }

@@ -24,11 +24,6 @@
     font-size: 1rem;
   }
 }
-@media (max-width: 1116px) {
-}
-@media (max-width: 1036px) {
-}
-
 @media (max-width: 992px) {
   .newsLetter-content p {
     margin-bottom: 20px;
@@ -118,8 +113,6 @@
     margin-right: 5px;
     display: inline-block;
   }
-}
-@media (max-width: 672px) {
 }
 
 @media (max-width: 576px) {
